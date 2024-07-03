@@ -106,8 +106,10 @@ public enum HeroClass {
 		waterskin.collect();
 
 		new ScrollOfIdentify().identify();
-		ScrollOfIdentify scrollofidentify = new ScrollOfIdentify();
-		scrollofidentify.collect(99);
+		
+		ScrollOfDivination scrollofdivination = new ScrollOfDivination();
+		scrollofdivination.collect(99);
+		
 		switch (this) {
 			case WARRIOR:
 				initWarrior( hero );
