@@ -178,13 +178,13 @@ public class Hero extends Char {
 		alignment = Alignment.ALLY;
 	}
 	
-	public static final int MAX_LEVEL = 30;
+	public static final int MAX_LEVEL = 9999999;
 
-	public static final int STARTING_STR = 10;
+	public static final int STARTING_STR = 18;
 	
 	private static final float TIME_TO_REST		    = 1f;
-	private static final float TIME_TO_SEARCH	    = 2f;
-	private static final float HUNGER_FOR_SEARCH	= 6f;
+	private static final float TIME_TO_SEARCH	    = 0f;
+	private static final float HUNGER_FOR_SEARCH	= 0f;
 	
 	public HeroClass heroClass = HeroClass.ROGUE;
 	public HeroSubClass subClass = HeroSubClass.NONE;
@@ -213,7 +213,7 @@ public class Hero extends Char {
 	public int lvl = 1;
 	public int exp = 0;
 	
-	public int HTBoost = 0;
+	public int HTBoost = 10000000;
 	
 	private ArrayList<Mob> visibleEnemies;
 
