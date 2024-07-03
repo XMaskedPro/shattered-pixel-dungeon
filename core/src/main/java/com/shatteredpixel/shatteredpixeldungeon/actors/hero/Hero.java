@@ -178,7 +178,7 @@ public class Hero extends Char {
 		alignment = Alignment.ALLY;
 	}
 	
-	public static final int MAX_LEVEL = 9999999;
+	public static final int MAX_LEVEL = 30;
 
 	public static final int STARTING_STR = 18;
 	
@@ -210,7 +210,7 @@ public class Hero extends Char {
 	
 	public float awareness;
 	
-	public int lvl = 1;
+	public int lvl = 30;
 	public int exp = 0;
 	
 	public int HTBoost = 10000000;
